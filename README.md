@@ -23,3 +23,33 @@ Write your code and methods in **lib**
 Write your test code in **spec**
 
 ### The name of the game today is to get your thinking about how to test and what to test.
+
+## Installing RSpec
+If you haven't installed RSpec already here are the steps
+
+At the project folder (aobve src/), create/modify a file called Gemfile, and add the following lines:
+
+```
+source 'https://rubygems.org'
+gem 'rspec'
+gem 'rake'
+```
+In the command line enter:
+```bundle install```
+
+
+### Test specification
+Check out the following resources for writing unit test specification:
+
+Tutalrial Example
+- https://semaphoreci.com/community/tutorials/getting-started-with-rspec
+
+rspec documentaiton
+- https://rspec.info/documentation/
+
+### Run your test file
+```rake```
+or
+```bundle exec rspec```
+or
+```bundle exec rspec --format documentation```
