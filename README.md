@@ -44,12 +44,13 @@ Check out the following resources for writing unit test specification:
 Tutalrial Example
 - https://semaphoreci.com/community/tutorials/getting-started-with-rspec
 
-rspec documentaiton
+RSpec documentaiton
 - https://rspec.info/documentation/
 
 ### Run your test file
 ```rake```
 or
 ```bundle exec rspec```
+```bundle exec rspec ./spec/calculator_spec.rb```
 or
 ```bundle exec rspec --format documentation```
