@@ -54,28 +54,4 @@ describe Calculator do
       end
     end
   end
-
-  # Mocking and Stubbing
-  # context 'Mock the calculator plus' do
-  #   before(:example) do
-  #     @mock_plus = double("calculate")
-  #   end
-
-  #   it 'should call plus 1 time' do
-  #     allow(Calculator.new.calculate(12, '+', 13)).to receive(:plus)
-  #   end
-
-
-    # context 'Mock the calculator plus' do
-    # it 'should call plus 1 time' do
-    #   mock_plus = double("plus")
-    #   mock_calc = Calculator.new
-    #   mock_calc.calculate = mock_plus
-
-    #   logger.should_receive(:plus).once
-
-    #   account.open
-    # end
-  # end
-  end
 end
